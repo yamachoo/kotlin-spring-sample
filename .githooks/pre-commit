@@ -1,9 +1,4 @@
 #!/usr/bin/env bash
-# ktlint check
-echo "Running ktlint check..."
-./gradlew ktlintFormat
-if [ $? -ne 0 ]; then exit 1; fi
-
 # detekt check
 echo "Running detekt check..."
 OUTPUT="/tmp/detekt-$(date +%s)"
