@@ -8,6 +8,8 @@ plugins {
     kotlin("plugin.spring") version "1.6.10"
 }
 
+extra["kotlin-coroutines.version"] = "1.6.0"
+
 group = "com.example"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_17
